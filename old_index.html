@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+
+<!--          :: CONCRETE ::
+  ____  _____  ____      __  ___ ____ ___
+ /    \/     \|    \    |  |/   \ |  |   |
+|  |__    |      |  | __|  |  |      |   |
+|   __|   |      |  |/        |   |\__   |
+|  |      |      |      |     |   |___|  |
+ \____/\_____/|__|__|\_____|\___________/
+ 
+              :: DAYDREAMS ::
+
+   once again, back is the incredible  -->
+
+<html>
+  <head>
+    <title>Naomi R. Patton</title>
+    <meta charset="utf-8">
+    
+    <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />
+
+    <style type="text/css">
+      * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
+      table {border-collapse:collapse; border-spacing:0;}
+      body {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; text-align:center;} 
+      h1 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:700; font-size:40pt; margin:20px 0px 0px 80px;}
+      h2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
+      h3 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
+      .summary-head {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px;}
+      .test {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:px;}
+      a {color:#c00;}
+      
+      /*** ^macro ***/
+      #membrane {position:relative; width:800px; margin:0px auto; text-align:left;}
+      #main {position:relative; width:520px; margin:0px 140px;}
+      #home-block, #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
+      #contact-block {margin-bottom:300px;}
+      
+      /*** ^resume ***/
+      .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
+      .res-sum {font-size:18px;}
+      .res-sum em {font-style:italic;}
+      .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/naomiportfolio/art/buttons_8bit.png) 0px -24px no-repeat;}
+      
+      /*** ^masthead ***/
+      #masthead {position:fixed; display:block; width:800px; height:120px; background:transparent url('/naomiportfolio/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
+      
+      /*** ^nav ***/
+      #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 80px; border:0px;}
+      #nav li {float:left; font-size:24px; padding:0px; margin:0px 20px 0px 0px; border:0px; color:#000; font-weight:600; text-decoration:none;}
+      #nav li a {text-decoration:none; color:#999; outline:none;}
+      #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/naomiportfolio/art/buttons_8bit.png) top left no-repeat; outline:0px;}
+      #nav li a.twitter {background-position:-189px -24px;}
+      #nav li a.vimeo {background-position:-151px -24px;}
+      #nav li a.linkedin {background-position:-227px -24px;}
+      
+      #home-portrait {width:200px; height:228px; margin:0px 0px 0px 20px; float:right;}
+      
+      /*** ^portfolio ***/
+      /* #portfolio-block p {} */
+      #port-viewport {position:relative; display:block; width:520; height:300px; overflow:hidden;}
+      .arrow {position:relative; display:block; width:100px; height:34px; text-indent:-9999px; margin:0px 210px; cursor:pointer; background:url(/naomiportfolio/art/arrows_8bit.png) 0px 0px no-repeat;}
+      .next {background-position:0px -34px;}
+      #port-strip {position:relative; display:block; width:520px; height:600px;}
+      .port-item {position:relative; display:block; width:520px; height:150px; background:url(/naomiportfolio/art/port_stripe_gray_8bit.png) 0px 0px repeat-x;}
+      .stripe {background:url(/naomiportfolio/art/port_stripe_beige_8bit.png) left top repeat-x;}
+      .port-item img {float:left;}
+      .port-hed {position:absolute; font-size:32px; font-weight:600; left:120px; top:20px;}
+      .port-tag {position:absolute; font-size:24px; left:120px; top:54px;}
+      .port-button {position:absolute; display:block; left:200px; top:96px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/naomiportfolio/art/buttons_8bit.png) 0px -24px no-repeat;}
+      
+      /*** ^photos ***/
+      .thumb {position:relative; margin:5px 10px; border:0px;}
+    </style>
+     
+  </head>
+  <body>
+    <div id="membrane">
+    
+      <div id="masthead">
+        <h1><!-- Naomi R. Patton | --><span class="test">Naomi R. Patton</span></h1>
+        <ul id="nav">
+          <li>Journalist</li>
+          <li><a href="#nrphome" onclick="scrollPage('home');return false">Home</a></li>
+          <li><a href="#nrpresume" onclick="scrollPage('resume');return false">Resume</a></li>
+          <li><a href="#nrpclips" onclick="scrollPage('clips');return false">Clips</a></li>
+          <li><a href="#nrpphotos" onclick="scrollPage('photos');return false">Photos</a></li>
+          <li><a href="#nrpcontact" onclick="scrollPage('contact');return false">Contact</a></li>
+          <li><a href="http://www.twitter.com/naomiroslyn" target="_blank" class="button twitter">Twitter</a></li>
+          <li><a href="http://www.vimeo.com/user2049528" target="_blank" class="button vimeo">Vimeo</a></li>
+          <li><a href="http://www.linkedin.com/in/naomirpatton" target="_blank" class="button linkedin">LinkedIn</a></li>
+        </ul>
+      </div>
+      
+      <div id="main">
+      
+        <div id="home-block">
+          <h2><a name="nrphome" id="home">Home</a></h2>
+          <p class="summary-head">I hail from the suburbs of Maryland outside Washington, D.C., but I go where the opportunity and the experience take me.</p>
+          <!--
+          <p class="summary-head2">I hail from the suburbs of Maryland outside Washington, D.C., but I go where the opportunity and the experience take me.</p>
+          <p class="summary-head3">I hail from the suburbs of Maryland outside Washington, D.C., but I go where the opportunity and the experience take me.</p>
+          <p class="summary-head4">I hail from the suburbs of Maryland outside Washington, D.C., but I go where the opportunity and the experience take me.</p>
+          <p class="summary-head5">I hail from the suburbs of Maryland outside Washington, D.C., but I go where the opportunity and the experience take me.</p>
+          -->
+          <img src="/naomiportfolio/photos/naomi_home_portrait.jpg" alt="Naomi R. Patton has worked in journalism and communications for nearly 20 years." id="home-portrait" />
+          <p class="summary">I've worked as a journalist and communications professional for nearly 20 years. There is little I haven't done at weekly newspapers, medium and large dailies; in public affairs work, as well as communications and publishing -- and a few things in between. I now look forward to expanding my communication and storytelling platforms with digital media.</p>
+        </div>
+
+        <div id="resume-block">
+          <p class="res-button"><a href="/naomiportfolio/pdfs/nrpPres110810.pdf">Download the PDF</a></p>
+          <h2 style="margin:50px 0px 10px 0px;"><a name="nrpresume" id="resume">Resume</a></h2>
+          
+          <h3>Newspapers</h3>
+          <p class="res-hed">Staff Writer, April 2003 - present.<br />
+          <em>Detroit Free Press</em> | Detroit, MI</p>
+          <p class="res-sum">Provide Detroit city government and general assignment coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
+          
+          <p class="res-hed">Staff Writer, December 1999 - March 2003.<br />
+          <em>Wisconsin State Journal</em> | Madison, WI</p>
+          <p class="res-sum">Provided general assignment coverage; including police, city and county government in Madison and Dane County.</p>
+          
+          <p class="res-hed">Staff Writer, September 1993 - December 1993.<br />
+          <em>The Onion</em> | Madison, WI</p>
+          <p class="res-sum">Reviewed films and music for satirical weekly.</p>
+          
+          <p class="res-hed">Staff Writer/Managing Editor, October 1992 - August 1993.<br />
+          <em>Milwaukee Community Journal</em> | Milwaukee, WI</p>
+          <p class="res-sum">Provided city and state government, education and features coverage for African-American weekly newspaper.  Assigned stories, and managed production and editorial content for the WEEKEND edition.</p>
+          
+          <p class="res-hed">Staff Writer/Editor, November 1990 - May 1992.<br />
+          <em>The Daily Cardinal</em> | Madison, WI</p>
+          <p class="res-sum">Covered city, state, national and international news for student newspaper; including arts and sports. Edited "Page 2" essay/opinion column.</p>
+          
+      <h  3>Communications | Publishing</h3>
+          <p class="res-hed">Editorial Assistant, August 2002 - March 2003.<br />
+          <em>Wisconsin Historical Society Press</em> | Madison, WI</p>
+          <p class="res-sum">Researched, copy edited, and proofread book projects and in-house newsletter.</p>
+          
+          <p class="res-hed">Editorial Assistant, January 1999 - January 2000.<br />
+          <em>Journal of Human Resources</em> | Madison, WI</p>
+          <p class="res-sum">Maintained peer-review of manuscripts for quarterly, academic economic journal.</p>
+          
+          <p class="res-hed">Communications Coordinator, August 1996 - January 1999.<br />
+          Household & Institutional Products Information Council/Consumer Specialty Products Association | Washington, D.C.</p>
+          <p class="res-sum">Wrote and edited briefs/media responses, and analysis of state and U.S. Environmental Protection Agency/Superfund hazardous waste regulations. Assisted strategic development and implementation of media campaigns with contract public relations firms; produced one-sheets, press releases, collateral materials. Tracked media coverage/placement.</p>
+          
+          <p class="res-hed">Assistant to the Director of Publications, September 1994 - August 1995.<br />
+          Optical Society of America | Washington, D.C.</p>
+          <p class="res-sum">Produced project presentations and budget reports for publications department, which published a dozen academic journals for the international professional association. Edited website content. Managed copyright requests and registered copyrights with the Library of Congress.</p>
+          
+          <p class="res-hed" id="real">Editorial Intern, September 1991 - December 1991.<br />
+          Wisconsin Alumni Association | Madison, WI</p>
+          <p class="res-sum">Wrote articles, copy edited and assisted production for WAA magazine, On Wisconsin, and alumni newsletter.</p>
+          
+          <p class="res-hed">Wrote liner notes for MTV's 1993 "Arrested Development Unplugged" CD.</p>
+          
+          <h3>Non-media</h3>
+          <p class="res-hed">Resident manager, November 1999-June 2001.<br />
+          UW-Extension J.F. Friedrick Inn and Conference Center | Madison, WI</p>
+          <p class="res-sum">Live-in manager and night auditor; provided guest services.</p>
+          
+          <p class="res-hed">Shelter advocate, September 1999-September 2000.<br />
+          Domestic Abuse Intervention Services (DAIS) | Madison, WI</p>
+          <p class="res-sum">Facilitated resident intake and provide client services at a shelter for abused women and families serving Dane County, Wis. Answered 24-hour Crisis Line, provided non-emergency safety planning and protection/restraining orders instruction, and provided referrals to community resources and various DAIS programs.</p>
+          
+          <h3>Education</h3>
+          <p class="res-sum">Attended the University of Wisconsin - Madison; majored in history.</p>
+          
+          <h3>Awards</h3>
+          <p class="res-sum">
+          2009 Pulitzer Prize for Local Reporting to the <em>Detroit Free Press</em> staff<br />
+          2009 First Place Michigan Associated Press, Breaking News<br />
+          2009 Second Place Michigan Associated Press, Investigative Reporting<br />
+          2010 State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
+          </p>
+          
+          <h3>Affiliations</h3>
+          <p class="res-sum">
+          Society of Professional Journalists<br />
+          Investigative Reporters and Editors<br />
+          National Association of Black Journalists
+          </p>
+          
+          <h3>Appearances</h3>
+          <p class="res-sum">
+          Appearances on CNN "Your$$$$$" and WDIV "Flashpoint" can be viewed at: <a href="http://www.vimeo.com/user2049528" target="_blank">http://www.vimeo.com/user2049528</a>.
+          </p>
+        </div>
+
+        <div id="portfolio-block">
+          <h2 style="margin:50px 0px 10px 0px;"><a name="nrpclips" id="clips">Clips</a></h2>
+          <p class="arrow previous">Previous</p>
+          <div id="port-viewport">
+            <div id="port-strip">
+              <div class="port-item">
+                <img src="/naomiportfolio/art/clip_031910_thumb_24bit.png" width="90" height="136" border="0" alt="'Detroit pension boards targeted', Detroit Free Press, 1A, 3/19/10" />
+                <p class="port-hed">Detroit pension boards targeted</p>
+                <p class="port-tag">Detroit Free Press | 1A | 3/19/10</p>
+                <p class="port-button"><a href="/naomiportfolio/pdf/pension_2010_0319.pdf">Download the PDF</a></p>
+              </div>
+              <div class="port-item stripe">
+                <img src="/naomiportfolio/art/clip_031910_thumb_24bit.png" width="90" height="136" border="0" alt="'Detroit pension boards targeted', Detroit Free Press, 1A, 3/19/10" />
+                <p class="port-hed">2 Detroit pension boards targeted</p>
+                <p class="port-tag">Detroit Free Press | 1A | 3/19/10</p>
+                <p class="port-button"><a href="">Download the PDF</a></p>
+              </div>
+              <div class="port-item">
+                <img src="/naomiportfolio/art/clip_031910_thumb_24bit.png" width="90" height="136" border="0" alt="'Detroit pension boards targeted', Detroit Free Press, 1A, 3/19/10" />
+                <p class="port-hed">3 Detroit pension boards targeted</p>
+                <p class="port-tag">Detroit Free Press | 1A | 3/19/10</p>
+                <p class="port-button"><a href="">Download the PDF</a></p>
+              </div>
+              <div class="port-item stripe">
+                <img src="/naomiportfolio/art/clip_031910_thumb_24bit.png" width="90" height="136" border="0" alt="'Detroit pension boards targeted', Detroit Free Press, 1A, 3/19/10" />
+                <p class="port-hed">4 Detroit pension boards targeted</p>
+                <p class="port-tag">Detroit Free Press | 1A | 3/19/10</p>
+                <p class="port-button"><a href="">Download the PDF</a></p>
+              </div>
+            </div> <!-- end port-strip -->
+          </div> <!-- end port-viewport -->
+          <p class="arrow next">Next</p>
+        </div>
+        
+        <div id="photo-block">
+          <h2><a name="nrpphotos" id="photos">Photos</a></h2>
+          <a href="/naomiportfolio/photos/test.jpg" onclick="lightbox();"><img src="/naomiportfolio/photos/thumb_test.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+          <a href="/naomiportfolio/photos/test2.jpg"><img src="/naomiportfolio/photos/thumb_test2.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+          <a href="/naomiportfolio/photos/test3.jpg"><img src="/naomiportfolio/photos/thumb_test3.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+          <a href="/naomiportfolio/photos/test3.jpg"><img src="/naomiportfolio/photos/thumb_test3.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+          <a href="/naomiportfolio/photos/test.jpg"><img src="/naomiportfolio/photos/thumb_test.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+          <a href="/naomiportfolio/photos/test2.jpg"><img src="/naomiportfolio/photos/thumb_test2.jpg" width="150" height="110" border="0" alt="A test image to use as a placeholder" class="thumb" /></a>
+        </div>
+
+        <div id="contact-block">
+          <h2 style="margin:50px 0px 10px 0px;"><a name="nrpcontact" id="contact">Contact</a></h2>
+          <p class="summary">Summary text goes here. I've worked as a journalist and communications professional for nearly 20 years. There is little I haven't done at weekly newspapers, medium and large dailies; in public affairs work, as well as communications and publishing -- and a few things in between. I now look forward to expanding my communication and storytelling platforms with digital media.</p>
+        </div>
+      </div>
+      
+    </div>
+  </body>
+
+  <script type="text/javascript">  
+
+    var resObj = [];
+
+    function listenFor (obj, event, func, capt) {
+      if (obj.addEventListener) {
+        obj.addEventListener(event, func, capt);
+      }
+      else {
+        event = "on" + event;
+        if (obj.attachEvent) {
+          obj.attachEvent(event, func);
+        }
+        else {
+          obj[event] = func;
+        };
+      };
+    };
+
+    function tidyText (subj) {
+
+      var i, j, len1, len2,
+          str_array = [];
+
+      function extract (ex_subj) {
+        if (ex_subj.nodeType == 3) {
+          str_array.push(ex_subj.nodeValue);
+        }
+        else {
+          if (ex_subj.hasChildNodes) {
+            for (j = 0, len2 = ex_subj.childNodes.length; j < len2; j += 1) {
+              extract(ex_subj.childNodes[j]);
+            }
+          }
+        }
+      }
+
+      for (i = 0, len1 = subj.childNodes.length; i < len1; i += 1) {
+        extract(subj.childNodes[i]);
+      }
+      /* ... unite all the str_array elements and collapse the whitespace... */
+      return str_array.join(' ').replace(/\s+/g, ' ');
+      
+    }
+ 
+    /* alert(tidyText(document.getElementById('jank'))); */
+    /* alert(str_array.length); */
+ 
+    function gather (subj) {
+      if (subj.hasChildNodes) {
+        var i, j, len;
+        for (i = 0, len = subj.childNodes.length; i < len; i += 1) {
+          if (subj.childNodes[i].className == 'res-hed') {
+            j = (resObj.length == 0) ? 0 : (j += 1);
+            resObj[j] = {};
+            resObj[j].hed = tidyText(subj.childNodes[i]);
+          }
+          if (subj.childNodes[i].className == 'res-sum') {
+            resObj[j].sum = tidyText(subj.childNodes[i]); 
+          }
+          else {
+            gather(subj.childNodes[i]);
+          }
+        }
+      }
+    }
+     
+    gather(document.getElementById('resume-block'));
+    
+    /*
+    (function () {
+      for (var i = 0; i < resObj.length; i += 1) {
+        alert('hed: ' + resObj[i].hed + '\n\nsum: ' 
++ resObj[i].sum);
+      }
+    })();
+    */
+
+    function fetchNode2 (subj, target, id_type) {
+      if (subj.hasChildNodes) {
+        var s_len = subj.childNodes.length,
+            i;
+        for (i = 0; i < s_len; i += 1) {
+          if (subj.childNodes[i].className == target) {
+            return subj.childNodes[i];
+          }
+          else {
+            fetchNode2 (subj.childNodes[i], target, id_type);
+          }
+        }
+      }
+    }
+    
+    function nav_behavior (evt) {
+      evt = evt || window.event;
+      var typ = evt.type;
+      var src = evt.target || evt.srcElement;
+      alert(typ + ", " + src.nodeName);
+    };
+    
+    function nav_highlight () {
+      this.style.color = '#c00';
+    };
+    
+    function nav_dim () {
+      this.style.color = '#999';
+    };
+        
+    function goof () {
+      var res_block = [],
+          i, j, len;
+      the_resume = document.getElementById('resume-block');
+      res_txt = the_resume.getElementsByTagName('p');
+      for (i = 0, j= 0, len = res_txt.length; i < len; i += 1) {
+        if (res_txt[i].className == 'res-hed') {
+          res_block[j]['hed'] == res_text[i].nodeValue;
+        }
+      }
+    }
+
+    /*
+
+    function textSpit () {
+      the_txt = 
+    }    
+    */
+ 
+    /* ...get rid of this global... */
+    var the_nav = document.getElementById('nav').getElementsByTagName('A');
+    for (var i = 0; i < the_nav.length; i++) {
+      listenFor(the_nav[i], "mouseover", nav_highlight, false);
+      // listenFor(the_nav[i], "mouseover", nav_behavior, false);
+      listenFor(the_nav[i], "mouseout", nav_dim, false);
+    };
+    
+    function get_curr_ypos() {
+      /* ...FF, Chrome, Opera, Safari... */
+      if (self.pageYOffset) {
+        return self.pageYOffset;
+      };
+      
+      /* ...IE6 standards mode... */
+      if (document.documentElement && document.documentElement.scrollTop) {
+        return document.documentElement.scrollTop;
+      };
+      
+      /* ...IE6, 7 and 8... */
+      if (document.body.scrollTop) {
+        return document.body.scrollTop;
+      };
+      
+      /* ...else... */
+      return 0;
+    };
+    
+    function get_dest_ypos(the_id) {
+      var the_element = document.getElementById(the_id),
+          y_pos = the_element.offsetTop,
+          node = the_element;
+      while (node.offsetParent && node.offsetParent != document.body) {
+        node = node.offsetParent;
+        y_pos += node.offsetTop;
+      };
+      return y_pos;
+    };
+    
+    function scrollPage (the_id) {
+      var start = get_curr_ypos(),
+          end = get_dest_ypos(the_id),
+          distance = (end > start) ? (end - start) : (start - end);
+      if (distance < 100) {
+        scrollTo(0, end); return;
+      };
+      var speed = Math.round(distance / 100);
+      if (speed >= 20) speed = 20;
+      var inc = Math.round(distance / 25);
+      var leap = end > start ? start + inc : start - inc;
+      var timer = 0;
+      if (end > start) {
+        for (var i = start; i < end; i += inc ) {
+          setTimeout('window.scrollTo(0, ' + leap + ')', timer * speed);
+          leap += inc; if (leap > end) leap = end; timer++;
+        };
+        return;
+      };
+      for (var i = start; i > end; i -= inc ) {
+        setTimeout('window.scrollTo(0, ' + leap + ')', timer * speed);
+        leap -= inc; if (leap < end) leap = end; timer++;
+      };
+    };
+
+    function setPortItems(the_array) {
+      var i, len;
+	    for (i = 0, len = the_array.length; i < len; i += 1) {
+	      the_array[i] = i * 150;
+	    };
+    };
+    
+    var dest,
+        currentset = 0,
+        clips = [];
+    
+    clips.length = 4;
+
+    setPortItems(clips);
+    
+    var por = document.getElementsByClassName('arrow');
+    // alert(por.length);
+    listenFor(por[0], 'click', incrementCurrentSet, false);
+    listenFor(por[1], 'click', incrementCurrentSet, false);
+    
+    function incrementCurrentSet (evt) {  
+      evt = evt || window.event;
+      src = evt.target || evt.srcElement;
+      switch (src.className.substring(6)) {
+        case 'previous':
+          currentset -= 1;
+          break;
+        case 'next':
+          currentset += 1;
+          break;
+      }
+      currentset = (currentset < 0) ? 0 : currentset;
+      currentset = (currentset > (clips.length - 1)) ? (clips.length - 1) : currentset;
+      slide();
+    };
+
+    function slide() {
+      var port_strip = document.getElementById('port-strip'),
+          curr_pos, distance, inc, wait;
+  
+      dest = clips[currentset];
+      
+      /* get the absolute value of the photo strip\'s current top position... */		
+      if (port_strip.currentStyle) {
+      	
+      	/* ...IE6... */
+      	curr_pos = (0 - parseInt(port_strip.currentStyle.top));
+      }
+      /* ...FF, Safari, IE7, 8, and Opera... */ 
+      else if (document.defaultView.getComputedStyle) {
+      	curr_pos = (0 - parseInt(document.defaultView.getComputedStyle(port_strip, null).getPropertyValue('top')));
+      }
+      else {
+      	return false;
+      }
+      
+      /* ... if the current position equals the destination, exit... */
+      if (curr_pos == dest) {
+      	return true;
+      }
+      
+      /* ... if the current position doesn't exist, set it to zero... */
+      if (!curr_pos || curr_pos == '' || isNaN(curr_pos)) {
+      	curr_pos = 0;
+      }
+      
+      // alert(curr_pos);
+      /* ... calculate the distance between the current position and destination... */
+      distance = (dest - curr_pos);
+      // alert(distance);
+      /* ... if the difference is negative, make it positive... */
+      if (distance < 0) {
+      	distance = (0 - distance);
+      }
+      
+      /* ...calculate a fraction of that distance.. */
+      inc = Math.ceil(distance / 5);
+    
+      /* ... if the current position is less than the destination, slide the strip forward... */
+      if (curr_pos < dest) {
+      	curr_pos += inc;
+      	port_strip.style.top = '-' + curr_pos + 'px';
+      }
+      
+      /* ... if the current position is greater than the destination, slide the strip backward... */
+      else {
+      	curr_pos -= inc;
+      	port_strip.style.top = '-' + curr_pos + 'px';
+      }
+      
+      /* ... repeat until the current position equals the destination... */
+      wait = setTimeout(slide, 50);
+    }
+
+    function buttonHover (evt) {
+      evt = evt || window.event;
+      var on, off,
+          src = evt.target || evt.srcElement,
+          button = src.className.substring(7);
+      switch (button) {
+        case 'twitter':
+          on = '-189px 0px';
+          off = '-189px -24px';
+          break;
+        case 'vimeo':
+          on = '-151px 0px';
+          off = '-151px -24px';
+          break;
+        case 'linkedin':
+          on = '-227px 0px';
+          off = '-227px -24px';
+          break;
+      }
+      if (evt.type == 'mouseover') {
+        src.style.backgroundPosition = on;
+      }
+      if (evt.type == 'mouseout') {
+        src.style.backgroundPosition = off;
+      } 
+    };
+
+    (function () {
+      var i, len,
+          the_nav2 = document.getElementById('nav'),
+          the_as = the_nav2.getElementsByTagName('a');
+      for (i = 0, len = the_as.length; i < len; i += 1) {
+        if (the_as[i].className.indexOf('button') != -1) {
+          listenFor(the_as[i], 'mouseover', buttonHover, true);
+          listenFor(the_as[i], 'mouseout', buttonHover, true);
+        }
+      }
+    })();
+    
+    $(function() {
+	    $('#photo-block a').lightBox();
+	  });
+
+    (function canary () {
+      var msg = 'I can take you there, just follow me.';
+      alert(msg);
+    })();
+  </script> 
+
+</html>
