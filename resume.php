@@ -38,13 +38,13 @@
       <div id="main">
 
         <div id="resume-block">
-          <p class="res-button"><a href="/pdfs/nrpPres080911_web.pdf">Download the PDF</a></p>
+          <p class="res-button"><a href="/pdfs/nrpPres081011_web.pdf">Download the PDF</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Resume</h2>
           
           <h3>Newspapers</h3>
           <p class="res-hed">Staff Writer, April 2003 - present.<br />
           <em>Detroit Free Press</em> | Detroit, MI</p>
-          <p class="res-sum">Provide Detroit city government and general assignment coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
+          <p class="res-sum">Provide general assignment, enterprise and City of Detroit coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
           
           <p class="res-hed">Staff Writer, December 1999 - March 2003.<br />
           <em>Wisconsin State Journal</em> | Madison, WI</p>
@@ -100,8 +100,8 @@
           <h3>Awards</h3>
           <p class="res-sum">
           2009 Pulitzer Prize for Local Reporting to the <em>Detroit Free Press</em> staff<br />
-          2009 First Place Michigan Associated Press, Breaking News<br />
-          2009 Second Place Michigan Associated Press, Investigative Reporting<br />
+          2010 First Place Michigan Associated Press, Breaking News<br />
+          2010 Second Place Michigan Associated Press, Investigative Reporting<br />
           2010 State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
           </p>
           
