@@ -34,7 +34,7 @@
       
       /*** ^nav ***/
       #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 20px; border:0px;}
-      #nav li {float:left; font-size:24px; padding:0px; margin:0px 30px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
+      #nav li {float:left; font-size:24px; padding:0px; margin:0px 28px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
       #nav li a {text-decoration:none; color:#999; outline:none;}
       #nav li.journ {color:#000;}
       #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_8bit.png) top left no-repeat; outline:0px;}
