@@ -29,22 +29,16 @@
       <div id="masthead">
         <h1><em>Naomi</em> R. Patton</h1>
         <ul id="nav">
-          <li class="journ">Journalist</li>
-          <li><a href="index.html">Home</a></li>
-          <li>Resume</li>
-          <li><a href="clips.html">Portfolio</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><a href="http://www.twitter.com/naomiroslyn" target="_blank" class="button twitter">Twitter</a></li>
-          <li><a href="http://www.vimeo.com/user2049528" target="_blank" class="button vimeo">Vimeo</a></li>
-          <li><a href="http://www.linkedin.com/in/naomirpatton" target="_blank" class="button linkedin">LinkedIn</a></li>
+          <?php
+            require 'nav.php';
+          ?>
         </ul>
       </div>
       
       <div id="main">
 
         <div id="resume-block">
-          <p class="res-button"><a href="/pdfs/nrpPres061511_web.pdf">Download the PDF</a></p>
+          <p class="res-button"><a href="/pdfs/nrpPres080911_web.pdf">Download the PDF</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Resume</h2>
           
           <h3>Newspapers</h3>
@@ -121,7 +115,7 @@
           
           <h3>Appearances</h3>
           <p class="res-sum">
-          Appearances on CNN "Your$$$$$" and WDIV "Flashpoint" can be viewed at: <a href="http://www.vimeo.com/user2049528" target="_blank">http://www.vimeo.com/user2049528</a>.
+          Appearances on CNN "Your$$$$$" and WDIV "Flashpoint" can be viewed at: <a href="http://www.vimeo.com/user2049528">http://www.vimeo.com/user2049528</a>.
           </p>
         </div>
 

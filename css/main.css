@@ -1,7 +1,7 @@
       * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
       table {border-collapse:collapse; border-spacing:0;}
       body {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; text-align:center;} 
-      h1 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 80px;}
+      h1 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
       h1 em {font-style:normal; color:#c00;}
       h2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
       h3 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
@@ -20,6 +20,9 @@
       #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
       #contact-block {margin-bottom:300px;}
       
+      /*** ^about ***/
+      .about {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px; margin: 20px 0;}
+      
       /*** ^resume ***/
       .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
       .res-sum {font-size:18px;}
@@ -30,7 +33,7 @@
       #masthead {position:fixed; display:block; width:800px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
       
       /*** ^nav ***/
-      #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 80px; border:0px;}
+      #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 20px; border:0px;}
       #nav li {float:left; font-size:24px; padding:0px; margin:0px 30px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
       #nav li a {text-decoration:none; color:#999; outline:none;}
       #nav li.journ {color:#000;}
@@ -51,4 +54,4 @@
       .thumb {position:relative; margin:5px 10px; border:0px;}
       
       /*** ^contact ***/
-      #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_8bit.png) 0px 0px no-repeat;}
+      #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}

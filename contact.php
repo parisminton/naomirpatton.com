@@ -33,15 +33,9 @@
       <div id="masthead">
         <h1><em>Naomi</em> R. Patton</h1>
         <ul id="nav">
-          <li class="journ">Journalist</li>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="clips.html">Portfolio</a></li>
-          <li><a href="photos.html">Photos</a></li>
-          <li>Contact</li>
-          <li><a href="http://www.twitter.com/naomiroslyn" target="_blank" class="button twitter">Twitter</a></li>
-          <li><a href="http://www.vimeo.com/user2049528" target="_blank" class="button vimeo">Vimeo</a></li>
-          <li><a href="http://www.linkedin.com/in/naomirpatton" target="_blank" class="button linkedin">LinkedIn</a></li>
+          <?php
+            require 'nav.php';
+          ?>
         </ul>
       </div>
       
