@@ -39,6 +39,8 @@
 
         <div id="portfolio-block">
           <h2 style="margin:50px 0px 10px 0px;">Portfolio</h2>
+          <p class="port-hed"><a href="/pdfs/911_2011_0911.pdf">Steel from World Trade Center towers used for memorials</a></p>
+          <p class="port-tag"><em>Detroit Free Press</em> | 8A | 9/11/11</p>
           
           <p class="port-hed"><a href="/pdfs/security_2011_0606.pdf">Palmer Woods residents on board with paramilitary-style patrols</a></p>
           <p class="port-tag"><em>Detroit Free Press</em> | 1A | 6/6/11</p>
