@@ -1,4 +1,4 @@
-<li class="journ">Journalist</li>
+<li class="journ">Communicator</li>
 <?php
   
   $nav_array = array('Home', 'About', 'Resume', 'Portfolio', 'Photos', 'Contact');

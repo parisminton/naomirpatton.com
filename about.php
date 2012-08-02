@@ -42,11 +42,9 @@
       
         <div id="about-block">
           <h2><a name="nrphome" id="about">About Naomi</a></h2>
-          <p class="summary-head">Naomi R. Patton is an enterprise and general assignment reporter for the Detroit Free Press, who most recently covered Detroit City Hall and the Detroit City Council at the height of the text message scandal that forced former Mayor Kwame Kilpatrick to resign.</p>
-          <p class="about">Since joining the Free Press in 2003, she's also covered the Detroit Police Department, the Wayne County Sheriff's Office, and government, education and police throughout metropolitan Detroit.</p>
-          <p class="about">Prior to the Free Press, Patton worked for the Wisconsin State Journal in Madison, Wis. where she worked as a general assignment reporter, covering police, city government, and features.  She began her newspaper career at the Milwaukee Community Journal, Wisconsin's largest African-American newspaper, as a reporter and managing editor of the paper's WEEKEND section.  In intervening years between Milwaukee and Madison, Patton worked in corporate communications for various professional and trade associations in Washington, D.C.</p>
-          
-          <p class="about">Born in Orange, New Jersey, Patton grew up in Silver Spring and Lanham, Maryland.  She is a proud Cardinalista, an alumnus of The Daily Cardinal student newspaper at the University of Wisconsin-Madison.</p>
+          <p class="summary-head">Naomi R. Patton is press secretary for Detroit Mayor Dave Bing as he works to fiscally stabilize the city and reform and restructure city government. She’s responsible for developing and managing strategic short- and long-term messaging across platforms, speechwriting and media placement.</p>
+         <p class="about">Prior to joining the Bing administration in 2012, Patton was an enterprise and general assignment reporter for the Detroit Free Press. She covered the Wayne County suburbs and Detroit’s City Hall beat at the height of the text message scandal that forced former Mayor Kwame Kilpatrick to resign, and was part of the team that earned the 2009 Pulitzer Prize for Local Reporting.</p>
+         <p class="about">Before heading to the Free Press in April 2003, Patton worked for the Wisconsin State Journal in Madison where she was a night general assignment reporter, covering police, city government, and features. And she began her newspaper career at the Milwaukee Community Journal, Wisconsin's largest African-American newspaper, as a reporter and managing editor of the paper's WEEKEND section. Patton also worked in corporate and public affairs communications in Washington, D.C.</p>
         </div>
 
       </div>

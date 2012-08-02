@@ -1,7 +1,7 @@
 naomirpatton.com
 =================
 
-A portfolio site for Naomi R. Patton, living at http://naomirpatton.com.
+A portfolio site for journalist Naomi R. Patton, living at http://naomirpatton.com.
 
 Changelog
 ---------

@@ -41,10 +41,15 @@
           <p class="res-button"><a href="/pdfs/nrpPres081011_web.pdf">Download the PDF</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Resume</h2>
           
-          <h3>Newspapers</h3>
-          <p class="res-hed">Staff Writer, April 2003 - present.<br />
+          <h3>Current</h3> 
+          <p class="res-hed">Press Secretary, January 2012 - present.<br />
+          <em>Mayor Dave Bing, City of Detroit</em> | Detroit, MI</p>
+          <p class="res-sum">Spokesperson, responsible for developing and managing strategic short- and long-term messaging across platforms, speechwriting and media placement.</p>
+          
+          <h3>Newspapers</h3> 
+          <p class="res-hed">Staff Writer, April 2003 - December 2011.<br />
           <em>Detroit Free Press</em> | Detroit, MI</p>
-          <p class="res-sum">Provide general assignment, enterprise and City of Detroit coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
+          <p class="res-sum">Provided general assignment, enterprise and City of Detroit coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
           
           <p class="res-hed">Staff Writer, December 1999 - March 2003.<br />
           <em>Wisconsin State Journal</em> | Madison, WI</p>
@@ -62,7 +67,7 @@
           <em>The Daily Cardinal</em> | Madison, WI</p>
           <p class="res-sum">Covered city, state, national and international news for student newspaper; including arts and sports. Edited "Page 2" essay/opinion column.</p>
           
-          <h3>Communications | Publishing</h3>
+          <h3>Communications | Publishing</h3> 
           <p class="res-hed">Editorial Assistant, August 2002 - March 2003.<br />
           <em>Wisconsin Historical Society Press</em> | Madison, WI</p>
           <p class="res-sum">Researched, copy edited, and proofread book projects and in-house newsletter.</p>
