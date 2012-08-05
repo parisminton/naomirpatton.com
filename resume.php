@@ -38,7 +38,7 @@
       <div id="main">
 
         <div id="resume-block">
-          <p class="res-button"><a href="/pdfs/nrpPres081011_web.pdf">Download the PDF</a></p>
+          <p class="res-button"><a href="/pdfs/nrpPres080512_web.pdf">Download the PDF</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Resume</h2>
           
           <h3>Current</h3> 
@@ -108,14 +108,6 @@
           2010 First Place Michigan Associated Press, Breaking News<br />
           2010 Second Place Michigan Associated Press, Investigative Reporting<br />
           2010 State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
-          </p>
-          
-          <h3>Affiliations</h3>
-          <p class="res-sum">
-          Online News Association<br />
-          Society of Professional Journalists<br />
-          Investigative Reporters and Editors<br />
-          National Association of Black Journalists
           </p>
           
           <h3>Appearances</h3>
