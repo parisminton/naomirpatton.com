@@ -1,7 +1,7 @@
 <li class="journ">Communicator</li>
 <?php
   
-  $nav_array = array('Home', 'About', 'Resume', 'Portfolio', 'Photos', 'Contact');
+  $nav_array = array('Home', 'About', 'Experience', 'Portfolio', 'Photos', 'Contact');
   
   $page = $_SERVER['PHP_SELF'];
   
