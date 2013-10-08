@@ -39,7 +39,7 @@
 
         <div id="resume-block">
           <p class="res-button"><a href="/pdfs/nrpPres080512_web.pdf">Download the PDF</a></p>
-          <h2 style="margin:50px 0px 10px 0px;">Resume</h2>
+          <h2 style="margin:50px 0px 10px 0px;">Experience</h2>
           
           <h3>Current</h3> 
           <p class="res-hed">Press Secretary, January 2012 - present.<br />
