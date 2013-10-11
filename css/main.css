@@ -27,7 +27,7 @@
       .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
       .res-sum {font-size:18px;}
       .res-sum em {font-style:italic;}
-      .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_8bit.png) 0px -24px no-repeat;}
+      .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
       
       /*** ^masthead ***/
       #masthead {position:fixed; display:block; width:830px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
@@ -37,7 +37,7 @@
       #nav li {float:left; font-size:24px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
       #nav li a {text-decoration:none; color:#999; outline:none;}
       #nav li.journ {color:#000;}
-      #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_8bit.png) top left no-repeat; outline:0px;}
+      #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_251x48.png) top left no-repeat; outline:0px;}
       #nav li a.twitter {background-position:-189px -24px;}
       #nav li a.vimeo {background-position:-151px -24px;}
       #nav li a.linkedin {background-position:-227px -24px;}
