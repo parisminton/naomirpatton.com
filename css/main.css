@@ -55,3 +55,27 @@
       
       /*** ^contact ***/
       #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}
+
+
+@media only screen and (max-width : 600px) {
+  body {
+    width: 100%;
+  }
+
+  #membrane {
+    width: 100%;
+  }
+
+  #masthead {
+    width: 100%;
+  }
+
+  #main {
+    width: 100%;
+    margin: 0;
+  }
+
+  #nav {
+    width: 100%;
+  }
+}
