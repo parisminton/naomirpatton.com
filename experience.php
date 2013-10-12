@@ -17,6 +17,8 @@
     <title>Naomi R. Patton</title>
     <meta charset="utf-8">
     
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
     <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
