@@ -1,7 +1,7 @@
   * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
   table {border-collapse:collapse; border-spacing:0;}
   body {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; text-align:center;} 
-  h1 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
+  h1 {display:inline-block; font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
   h1 em {font-style:normal; color:#c00;}
   h2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
   h3 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
@@ -34,6 +34,25 @@
   
   /*** ^nav ***/
   #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 20px; border:0px;}
+  #mobilebutton {
+    display: block;
+    position: absolute;
+    width: 70px;
+    height: 66px;
+    right: 0;
+    top: 52px;
+    border-left: 1px solid #ccc;
+    text-align: center;
+  }
+  #mobilebutton p {
+    display: block;
+    width: 28px;
+    height: 14px;
+    margin: 26px 24px 0 18px;
+    text-indent: -9999px;
+    background: transparent url(http://dev.naomirpatton.com/art/mobile_nav_button_sprites_28x30.png) left top no-repeat;
+    outline: none;
+  }
   #nav li {float:left; font-size:24px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
   #nav li a {text-decoration:none; color:#999; outline:none;}
   #nav li.journ {color:#000;}
@@ -68,6 +87,15 @@
 
   #masthead {
     width: 100%;
+  }
+  
+  #nav li {
+    display: none;
+  }
+
+  #nav li.journ,
+  #nav li.currentpage {
+    display: inline;
   }
 
   #main {

@@ -63,6 +63,21 @@ function buttonHover (evt) {
   } 
 };
 
+function makeMobileButton () {
+  var fragment = document.createDocumentFragment(),
+      button = document.createElement('div'),
+      p = document.createElement('p'),
+      show = document.createTextNode('Show menu'),
+      youngerBrother = document.getElementById('nav');
+
+  p.appendChild(show);
+  button.id = 'mobilebutton';
+  button.appendChild(p);
+  fragment.appendChild(button);
+
+  youngerBrother.parentNode.insertBefore(fragment, youngerBrother);
+}
+
 (function () {
   var i, len,
       the_nav2 = document.getElementById('nav'),
@@ -73,4 +88,7 @@ function buttonHover (evt) {
       listenFor(the_as[i], 'mouseout', buttonHover, true);
     }
   }
+  /* if (window.innerWidth < 400) { */
+    makeMobileButton();
+  /* } */
 })();

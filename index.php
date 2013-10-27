@@ -34,9 +34,7 @@
       <div id="masthead">
         <h1><em>Naomi</em> R. Patton</h1>
         <ul id="nav">
-          <?php
-            require 'nav.php';
-          ?>
+          <?php require 'nav.php' ?>
         </ul>
       </div>
       
