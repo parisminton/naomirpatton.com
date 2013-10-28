@@ -11,22 +11,22 @@ function listenFor (obj, event, func, capt) {
       obj[event] = func;
     };
   };
-};
+}
 
 function nav_behavior (evt) {
   evt = evt || window.event;
   var typ = evt.type;
   var src = evt.target || evt.srcElement;
   alert(typ + ", " + src.nodeName);
-};
+}
 
 function nav_highlight () {
   this.style.color = '#c00';
-};
+}
 
 function nav_dim () {
   this.style.color = '#999';
-};
+}
 
 /* ...get rid of this global... */
 var the_nav = document.getElementById('nav').getElementsByTagName('A');
@@ -34,7 +34,7 @@ for (var i = 0; i < the_nav.length; i++) {
   listenFor(the_nav[i], "mouseover", nav_highlight, false);
   // listenFor(the_nav[i], "mouseover", nav_behavior, false);
   listenFor(the_nav[i], "mouseout", nav_dim, false);
-};
+}
 
 function buttonHover (evt) {
   evt = evt || window.event;
@@ -61,7 +61,7 @@ function buttonHover (evt) {
   if (evt.type == 'mouseout') {
     src.style.backgroundPosition = off;
   } 
-};
+}
 
 function makeMobileButton () {
   var fragment = document.createDocumentFragment(),
@@ -78,6 +78,19 @@ function makeMobileButton () {
   youngerBrother.parentNode.insertBefore(fragment, youngerBrother);
 }
 
+function convertMobileNav () {
+  var comp_width,
+      nav = document.getElementById('nav'),
+      masthead_h1 = document.getElementById('masthead')
+                    .getElementsByTagName('h1')[0];
+
+  comp_width = window.getComputedStyle(masthead_h1, null)
+               .getPropertyValue('width');
+
+  nav.style.width = comp_width;
+  nav.className = 'mobilenav';
+}
+
 (function () {
   var i, len,
       the_nav2 = document.getElementById('nav'),
@@ -90,5 +103,7 @@ function makeMobileButton () {
   }
   /* if (window.innerWidth < 400) { */
     makeMobileButton();
+    setMobileCurrentPage();
+    convertMobileNav();
   /* } */
 })();

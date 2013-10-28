@@ -9,13 +9,13 @@
   
   foreach ($nav_array as $item) {
     if ($page == ('/' . strtolower($item) . '.php')) {
-      echo '<li>' . $item . '</li>';
+      echo '<li class="currentpage">' . $item . '</li>';
     }
     elseif ($item == 'Home' && $page == '/index.php') {
-      echo '<li>Home</li>';
+      echo '<li class="currentpage">Home</li>';
     }
     elseif ($item == 'Portfolio' && $page == '/clips.php') {
-      echo '<li>Portfolio</li>';
+      echo '<li class="currentpage">Portfolio</li>';
     }
     else {
       if ($item == 'Portfolio') {

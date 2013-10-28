@@ -98,6 +98,11 @@
     display: inline;
   }
 
+  #nav li.currentpage {
+    margin: 0;
+    float: right;
+  }
+
   #main {
     width: 70%;
     margin: 0 auto;
