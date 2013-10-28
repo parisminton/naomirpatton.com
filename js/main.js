@@ -1,4 +1,16 @@
-function listenFor (obj, event, func, capt) {
+var bW = window.bw || {};
+
+bW.getDOMReferences = function () {
+  this.nav = document.getElementById('nav');
+
+  this.nav_a_array = document.getElementById('nav')
+                   .getElementsByTagName('a');
+              
+  this.masthead_h1 = document.getElementById('masthead')
+                   .getElementsByTagName('h1')[0];
+};
+
+bW.listenFor = function (obj, event, func, capt) {
   if (obj.addEventListener) {
     obj.addEventListener(event, func, capt);
   }
@@ -9,38 +21,34 @@ function listenFor (obj, event, func, capt) {
     }
     else {
       obj[event] = func;
-    };
-  };
-}
+    }
+  }
+};
 
-function nav_behavior (evt) {
+bW.nav_highlight = function (evt) {
+  var src;
+
   evt = evt || window.event;
-  var typ = evt.type;
-  var src = evt.target || evt.srcElement;
-  alert(typ + ", " + src.nodeName);
-}
+  src = evt.target || evt.srcElement;
 
-function nav_highlight () {
-  this.style.color = '#c00';
-}
+  src.style.color = '#c00';
+};
 
-function nav_dim () {
-  this.style.color = '#999';
-}
+bW.nav_dim = function (evt) {
+  var src;
 
-/* ...get rid of this global... */
-var the_nav = document.getElementById('nav').getElementsByTagName('A');
-for (var i = 0; i < the_nav.length; i++) {
-  listenFor(the_nav[i], "mouseover", nav_highlight, false);
-  // listenFor(the_nav[i], "mouseover", nav_behavior, false);
-  listenFor(the_nav[i], "mouseout", nav_dim, false);
-}
+  evt = evt || window.event;
+  src = evt.target || evt.srcElement;
 
-function buttonHover (evt) {
+  src.style.color = '#999';
+};
+
+bW.buttonHover = function (evt) {
   evt = evt || window.event;
   var on, off,
       src = evt.target || evt.srcElement,
       button = src.className.substring(7);
+
   switch (button) {
     case 'twitter':
       on = '-189px 0px';
@@ -55,55 +63,62 @@ function buttonHover (evt) {
       off = '-227px -24px';
       break;
   }
+
   if (evt.type == 'mouseover') {
     src.style.backgroundPosition = on;
   }
+
   if (evt.type == 'mouseout') {
     src.style.backgroundPosition = off;
   } 
-}
+};
 
-function makeMobileButton () {
+bW.attachButtonListeners = function () {
+  var i, len;
+
+  for (i = 0, len = this.nav_a_array.length; i < len; i += 1) {
+    if (this.nav_a_array[i].className.indexOf('button') != -1) {
+      this.listenFor(this.nav_a_array[i], 'mouseover', this.buttonHover, true);
+      this.listenFor(this.nav_a_array[i], 'mouseout', this.buttonHover, true);
+    }
+    else {
+      this.listenFor(this.nav_a_array[i], 'mouseover', this.nav_highlight, false);
+      this.listenFor(this.nav_a_array[i], 'mouseout', this.nav_dim, false);
+    }
+  }
+};
+
+
+// mobile stuff
+bW.makeMobileButton = function () {
   var fragment = document.createDocumentFragment(),
       button = document.createElement('div'),
       p = document.createElement('p'),
-      show = document.createTextNode('Show menu'),
-      youngerBrother = document.getElementById('nav');
+      show = document.createTextNode('Show menu');
 
   p.appendChild(show);
   button.id = 'mobilebutton';
   button.appendChild(p);
   fragment.appendChild(button);
 
-  youngerBrother.parentNode.insertBefore(fragment, youngerBrother);
-}
+  this.nav.parentNode.insertBefore(fragment, this.nav);
+};
 
-function convertMobileNav () {
-  var comp_width,
-      nav = document.getElementById('nav'),
-      masthead_h1 = document.getElementById('masthead')
-                    .getElementsByTagName('h1')[0];
+bW.convertMobileNav = function () {
+  var comp_width = window.getComputedStyle(this.masthead_h1, null)
+                   .getPropertyValue('width');
 
-  comp_width = window.getComputedStyle(masthead_h1, null)
-               .getPropertyValue('width');
+  this.nav.style.width = comp_width;
+  this.nav.className = 'mobilenav';
+};
 
-  nav.style.width = comp_width;
-  nav.className = 'mobilenav';
-}
 
-(function () {
-  var i, len,
-      the_nav2 = document.getElementById('nav'),
-      the_as = the_nav2.getElementsByTagName('a');
-  for (i = 0, len = the_as.length; i < len; i += 1) {
-    if (the_as[i].className.indexOf('button') != -1) {
-      listenFor(the_as[i], 'mouseover', buttonHover, true);
-      listenFor(the_as[i], 'mouseout', buttonHover, true);
-    }
+// set everything up
+bW.go = function () {
+  this.getDOMReferences();
+  this.attachButtonListeners();
+  if (window.innerWidth < 400) {
+    this.makeMobileButton();
+    this.convertMobileNav();
   }
-  /* if (window.innerWidth < 400) { */
-    makeMobileButton();
-    setMobileCurrentPage();
-    convertMobileNav();
-  /* } */
-})();
+};

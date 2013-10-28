@@ -19,8 +19,19 @@
     
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
+    <script type="text/javascript" src="/js/main.js"></script>
+
     <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+    <script type="text/javascript">
+      try {
+        Typekit.load({
+          active: function() {
+            bW.go();
+          }
+        })
+      }
+      catch (e) {}
+    </script>
     
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
@@ -54,6 +65,8 @@
     </div>
   </body>
 
-  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript">
+    // bW.go();
+  </script>
 
 </html>
