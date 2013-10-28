@@ -10,44 +10,42 @@ bW.getDOMReferences = function () {
                    .getElementsByTagName('h1')[0];
 };
 
-bW.listenFor = function (obj, event, func, capt) {
+bW.listenFor = function (obj, evt, func, capt) {
   if (obj.addEventListener) {
-    obj.addEventListener(event, func, capt);
+    obj.addEventListener(evt, func, capt);
   }
   else {
-    event = "on" + event;
+    evt = "on" + evt;
     if (obj.attachEvent) {
-      obj.attachEvent(event, func);
+      obj.attachEvent(evt, func);
     }
     else {
-      obj[event] = func;
+      obj[evt] = func;
     }
   }
 };
 
-bW.nav_highlight = function (evt) {
+bW.textHover = function (evt) {
   var src;
 
   evt = evt || window.event;
   src = evt.target || evt.srcElement;
 
-  src.style.color = '#c00';
-};
+  if (evt.type == 'mouseover') {
+    src.style.color = '#c00';
+  }
 
-bW.nav_dim = function (evt) {
-  var src;
-
-  evt = evt || window.event;
-  src = evt.target || evt.srcElement;
-
-  src.style.color = '#999';
+  if (evt.type == 'mouseout') {
+    src.style.color = '#999';
+  } 
 };
 
 bW.buttonHover = function (evt) {
+  var on, off, src, button;
+
   evt = evt || window.event;
-  var on, off,
-      src = evt.target || evt.srcElement,
-      button = src.className.substring(7);
+  src = evt.target || evt.srcElement;
+  button = src.className.substring(7);
 
   switch (button) {
     case 'twitter':
@@ -82,8 +80,8 @@ bW.attachButtonListeners = function () {
       this.listenFor(this.nav_a_array[i], 'mouseout', this.buttonHover, true);
     }
     else {
-      this.listenFor(this.nav_a_array[i], 'mouseover', this.nav_highlight, false);
-      this.listenFor(this.nav_a_array[i], 'mouseout', this.nav_dim, false);
+      this.listenFor(this.nav_a_array[i], 'mouseover', this.textHover, false);
+      this.listenFor(this.nav_a_array[i], 'mouseout', this.textHover, false);
     }
   }
 };

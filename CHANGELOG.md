@@ -19,6 +19,8 @@ Changelog
 
 2. Set breakpoints, improved scaling for phone.
 
+3. Updated Twitter logo.
+
 
 **10/7/13**
 
