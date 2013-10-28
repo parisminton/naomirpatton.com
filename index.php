@@ -65,8 +65,4 @@
     </div>
   </body>
 
-  <script type="text/javascript">
-    // bW.go();
-  </script>
-
 </html>
