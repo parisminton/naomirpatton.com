@@ -44,7 +44,7 @@
           <!-- <h3>Current</h3> -->
           <p class="res-hed">Senior Director Public Relations, October 2012 - present<br />
           <em>Palace Sports & Entertainment</em> | Auburn Hills, Mich.</p>
-          <p class="res-sum">Manage strategic communications planning and execution for internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepare and implement fiscal year departmental budget. Coordinate media coverage and provide content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
+          <p class="res-sum">Manage strategic communications planning and execution of internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepare and implement fiscal year departmental budget. Coordinate media coverage and provide content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
           
           <p class="res-hed">Press Secretary, January 2012 - September 2012<br />
           <em>Mayor Dave Bing, City of Detroit</em> | Detroit, Mich.</p>
