@@ -44,11 +44,11 @@
           <!-- <h3>Current</h3> -->
           <p class="res-hed">Senior Director Public Relations, October 2012 - present<br />
           <em>Palace Sports & Entertainment</em> | Auburn Hills, Mich.</p>
-          <p class="res-sum">Manage strategic communications planning and development for all concert/entertainment events and corporate communications for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepare and implement fiscal year departmental budget.</p>
+          <p class="res-sum">Manage strategic communications planning and execution for internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepare and implement fiscal year departmental budget. Coordinate media coverage and provide content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
           
           <p class="res-hed">Press Secretary, January 2012 - September 2012<br />
           <em>Mayor Dave Bing, City of Detroit</em> | Detroit, Mich.</p>
-          <p class="res-sum">Responsible for developing and managing strategic policy messaging and crisis communications; coordinating City departments' communications; media relations and speechwriting.</p>
+          <p class="res-sum">Served as primary spokesperson for Mayor Bing and the administration. Responsible for managing and developing strategic policy messaging and crisis communications; crafting short- and long-term communication plans, highlighting the Mayor’s policy agenda and achievements; speechwriting, including the Mayor's 2012 State of the City address; and coordinating intergovernmental communications for more than two dozen City departments.</p>
           
           <p class="res-hed">Staff Writer, April 2003 - December 2011<br />
           <em>Detroit Free Press</em> | Detroit, Mich.</p>
