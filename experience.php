@@ -38,17 +38,21 @@
       <div id="main">
 
         <div id="resume-block">
-          <p class="res-button"><a href="/pdfs/nrpPres050214_web.pdf">Download the PDF</a></p>
+          <p class="res-button"><a href="/pdfs/nrpPres100715_web.pdf">Download the PDF</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Experience</h2>
           
           <!-- <h3>Current</h3> -->
-          <p class="res-hed">Senior Director Public Relations, October 2012 - present<br />
+          <p class="res-hed">Vice President, June 2014 - Present<br />
+          <em>Weber Shandwick</em> | Birmingham, Mich.</p>
+          <p class="res-sum">Lead Weber Shandwick Detroit's Social Impact practice, providing strategic counsel and support for foundation, non-profit and corporate clients on communications, engagement and advocacy strategies from thought leadership, campaign planning and execution to brand building and issues management. Responsible for identifying and securing external new business opportunities and growing existing clients organically.</p>
+          
+          <p class="res-hed">Senior Director Public Relations, October 2012 - June 2014<br />
           <em>Palace Sports & Entertainment</em> | Auburn Hills, Mich.</p>
-          <p class="res-sum">Manage strategic communications planning and execution of internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepare and implement fiscal year departmental budget. Coordinate media coverage and provide content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
+          <p class="res-sum">Managed strategic communications planning and execution of internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepared and implemented fiscal year departmental budget. Coordinated media coverage and provided content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
           
           <p class="res-hed">Press Secretary, January 2012 - September 2012<br />
           <em>Mayor Dave Bing, City of Detroit</em> | Detroit, Mich.</p>
-          <p class="res-sum">Served as primary spokesperson for Mayor Bing and the administration. Responsible for managing and developing strategic policy messaging and crisis communications; crafting short- and long-term communication plans, highlighting the Mayor’s policy agenda and achievements; speechwriting, including the Mayor's 2012 State of the City address; and coordinating intergovernmental communications for more than two dozen City departments.</p>
+          <p class="res-sum">Served as primary spokesperson for Mayor Bing and the administration. Developed and managed strategic policy messaging and crisis communications; crafting short- and long-term communication campaigns, highlighting the Mayor's policy agenda and achievements; speechwriting; and coordinated intergovernmental communications for more than two dozen City departments.</p>
           
           <p class="res-hed">Staff Writer, April 2003 - December 2011<br />
           <em>Detroit Free Press</em> | Detroit, Mich.</p>
