@@ -17,9 +17,7 @@
     <title>Naomi R. Patton</title>
     <meta charset="utf-8">
     
-    <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
+    <?php include('typefaces.php'); ?>
     <link rel="stylesheet" href="/css/main.css" />
      
   </head>
@@ -29,9 +27,7 @@
       <div id="masthead">
         <h1><em>Naomi</em> R. Patton</h1>
         <ul id="nav">
-          <?php
-            require 'nav.php';
-          ?>
+          <?php include('nav.php'); ?>
         </ul>
       </div>
       

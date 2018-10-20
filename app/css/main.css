@@ -1,16 +1,16 @@
       * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
       table {border-collapse:collapse; border-spacing:0;}
-      body {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; text-align:center;} 
-      h1 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
+      body {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; text-align:center;} 
+      h1 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
       h1 em {font-style:normal; color:#c00;}
-      h2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
-      h3 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
-      .summary-head {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary-head2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      h2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
+      h3 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
+      .summary-head {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px;}
+      .summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:21px;}
       a {color:#c00;}
       
       /*** ^macro ***/
@@ -21,7 +21,7 @@
       #contact-block {margin-bottom:300px;}
       
       /*** ^about ***/
-      .about {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px; margin: 20px 0;}
+      .about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:21px; margin: 20px 0;}
       
       /*** ^resume ***/
       .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
