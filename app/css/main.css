@@ -14,8 +14,8 @@
       a {color:#c00;}
       
       /*** ^macro ***/
-      #membrane {position:relative; width:800px; margin:0px auto; text-align:left;}
-      #main {position:relative; width:520px; margin:0px 140px;}
+      #membrane {position:relative; width:950px; margin:0px auto; text-align:left;}
+      #main {position:relative; width:520px; margin:0px 215px;}
       #home-block {margin-bottom:150px;}
       #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
       #contact-block {margin-bottom:300px;}
@@ -30,7 +30,7 @@
       .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
       
       /*** ^masthead ***/
-      #masthead {position:fixed; display:block; width:830px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
+      #masthead {position:fixed; display:block; width:950px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
       
       /*** ^nav ***/
       #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 20px; border:0px;}
