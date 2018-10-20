@@ -6,6 +6,11 @@ A portfolio site for journalist Naomi R. Patton, living at http://naomirpatton.c
 Changelog
 ---------
 
+**10/19/18**
+
+- Dockerize.
+
+
 **11/10/11** - *Updates go back to February, but alas, the log starts here.*
 
 - Added Detroit charter elections clip from 11/9.
