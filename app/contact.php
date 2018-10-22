@@ -29,7 +29,7 @@
     <div id="membrane">
     
       <div id="masthead">
-        <h1><em>Naomi</em> R. Patton</h1>
+        <h1><a href="index.php" title="Home page"><em>Naomi</em> R. Patton</a></h1>
         <ul id="nav">
           <?php include('nav.php'); ?>
         </ul>
