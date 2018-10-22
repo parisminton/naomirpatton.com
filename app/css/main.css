@@ -6,13 +6,13 @@
       h1 em {font-style:normal; color:#c00;}
       h2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
       h3 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
-      .summary-first {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:19px; margin: 100px 0 20px 0;}
+      .summary-first {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 100px 0 20px 0;}
       .summary-head {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
       .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:19px;}
+      .summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px;}
       a {color:#c00;}
       
       /*** ^macro ***/
@@ -26,11 +26,11 @@
       #home-block .summary {margin: 20px 0;}
       
       /*** ^about ***/
-      .about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:19px; margin: 20px 0;}
+      .about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 20px 0;}
       
       /*** ^resume ***/
-      .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
-      .res-sum {font-size:18px;}
+      .res-hed {font-size:17px; font-weight:600; margin: 10px 0px 0px 0px;}
+      .res-sum {font-size:17px;}
       .res-sum em {font-style:italic;}
       .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
       
@@ -50,9 +50,9 @@
       #home-portrait {width:200px; height:220px; margin:0px 20px 0px 0px; float:left;}
       
       /*** ^portfolio ***/   
-      .port-hed {position:relative; font-size:20px; font-weight:400;}
+      .port-hed {position:relative; font-size:17px; font-weight:400;}
       .port-hed a {color:#000;}
-      .port-tag {position:relative; font-size:18px; margin-bottom:16px;}
+      .port-tag {position:relative; font-size:15px; margin-bottom:16px;}
       .port-intro {margin:0 0 40px; font-size:28px;}
       
       /*** ^photos ***/

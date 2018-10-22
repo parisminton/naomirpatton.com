@@ -112,7 +112,7 @@
           <strong>2010</strong> State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
           </p>
           
-          <h3>Appearances</h3>
+          <h3>Reel</h3>
           <p class="res-sum">
           Appearances, including CNN "Your$$$$$", can be viewed <a href="http://www.vimeo.com/user2049528">here</a>.
           </p>
