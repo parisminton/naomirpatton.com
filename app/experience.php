@@ -101,19 +101,20 @@
           <p class="res-hed">Wrote liner notes for MTV's 1993 "Arrested Development Unplugged" CD.</p>
           
           <h3>Education</h3>
-          <p class="res-sum">Attended the University of Wisconsin - Madison; majored in history.</p>
+          <p class="res-sum">Attended the University of Wisconsin - Madison; majored in history and journalism.</p>
           
           <h3>Awards</h3>
           <p class="res-sum">
-          2009 Pulitzer Prize for Local Reporting to the <em>Detroit Free Press</em> staff<br />
-          2010 First Place Michigan Associated Press, Breaking News<br />
-          2010 Second Place Michigan Associated Press, Investigative Reporting<br />
-          2010 State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
+          <strong>2015</strong> University of Wisconsin-Madison School of Journalism & Mass Communication, Distinguished Service to Journalism Award<br />
+          <strong>2009</strong> Pulitzer Prize for Local Reporting to the <em>Detroit Free Press</em> staff<br />
+          <strong>2010</strong> First Place Michigan Associated Press, Breaking News<br />
+          <strong>2010</strong> Second Place Michigan Associated Press, Investigative Reporting<br />
+          <strong>2010</strong> State Bar of Michigan Wade H. McCree Award for the Advancement of Justice
           </p>
           
           <h3>Appearances</h3>
           <p class="res-sum">
-          Appearances on CNN "Your$$$$$" and WDIV "Flashpoint" can be viewed at: <a href="http://www.vimeo.com/user2049528">http://www.vimeo.com/user2049528</a>.
+          Appearances, including CNN "Your$$$$$", can be viewed <a href="http://www.vimeo.com/user2049528">here</a>.
           </p>
         </div>
 
