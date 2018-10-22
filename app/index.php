@@ -25,29 +25,6 @@
     
   </head>
   <body>
-    <div id="membrane">
-    
-      <div id="masthead">
-        <h1><em>Naomi</em> R. Patton</h1>
-        <ul id="nav">
-          <?php include('nav.php'); ?>
-        </ul>
-      </div>
-      
-      <div id="main">
-      
-        <div id="home-block">
-          <h2><a name="nrphome" id="home">Home</a></h2>
-          <p class="summary-head">In digital and traditional forms, from corporate, public affairs and social sector communications to small papers and metropolitan dailies, I help elevate and tell the story.</p>
-          
-          <img src="/photos/naomi_home_portrait3.jpg" alt="Naomi R. Patton has worked in journalism and communications for nearly 20 years." id="home-portrait" />
-          <p class="summary">I chronicled insurance redlining in Milwaukee's central city. I helped develop national campaigns and website content for Washington, D.C.-based professional and trade associations. I worked on the editing team for a book on the history of the Harley-Davidson company. I stood in Metro Airport, Christmas Day, 2009, for hours until federal agents left after apprehending a would-be terrorist who tried to blow up a commercial flight with explosives in his underwear.</p>
-          <p class="summary" style="margin-top: 20px;">Spokesperson. Reporter. Content Producer.  The titles change. The platforms evolve. The storytelling is constant.</p>
-        </div>
-
-      </div>
-      
-    </div>
   </body>
 
   <script type="text/javascript" src="/js/main.js"></script>
