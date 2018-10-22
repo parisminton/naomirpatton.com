@@ -48,6 +48,7 @@
       .port-hed {position:relative; font-size:22px; font-weight:400;}
       .port-hed a {color:#000;}
       .port-tag {position:relative; font-size:20px; margin-bottom:16px;}
+      .port-intro {margin:0 0 40px; font-size:28px;}
       
       /*** ^photos ***/
       #photo-block a {outline:none;}

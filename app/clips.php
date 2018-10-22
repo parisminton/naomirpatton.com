@@ -35,6 +35,9 @@
 
         <div id="portfolio-block">
           <h2 style="margin:50px 0px 10px 0px;">Portfolio</h2>
+
+          <p class="port-intro">Here's a sample of my work.</p>
+
           <p class="port-hed"><a href="/pdfs/redford_2011_0322.pdf">Turnaround in Redford Blueprint for Detroit Works</a></p>
           <p class="port-tag"><em>Detroit Free Press</em> | 1A | 3/22/11</p>
 
