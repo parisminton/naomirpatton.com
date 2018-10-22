@@ -34,32 +34,40 @@
       <div id="main">
 
         <div id="resume-block">
-          <p class="res-button"><a href="/pdfs/nrpPres100715_web.pdf">Download the PDF</a></p>
+          <p class="res-button"><a href="/pdfs/nrpPres102118_web.pdf">Résumé</a></p>
           <h2 style="margin:50px 0px 10px 0px;">Experience</h2>
           
           <!-- <h3>Current</h3> -->
-          <p class="res-hed">Vice President, June 2014 - Present<br />
-          <em>Weber Shandwick</em> | Birmingham, Mich.</p>
-          <p class="res-sum">Lead Weber Shandwick Detroit's Social Impact practice, providing strategic counsel and support for foundation, non-profit and corporate clients on communications, engagement and advocacy strategies from thought leadership, campaign planning and execution to brand building and issues management. Responsible for identifying and securing external new business opportunities and growing existing clients organically.</p>
+          <p class="res-hed">Communications Consultant | Content Strategist | Writer | Editor, May 2018 - Present<br />
+          Independent Consultant | New York, N.Y.</p>
+          <p class="res-sum">Strategic counsel on issues and reputation management; corporate communications; public affairs; media relations, integrated marketing, message development, engagement and advocacy, from thought leadership, campaign planning and execution to content development and brand strategy.</p>
+          
+          <p class="res-hed">Group Vice President, November 2017 - March 2018<br />
+          Ruder Finn | New York, N.Y.</p>
+          <p class="res-sum">Managed Ruder Finn’s U.S. Corporate Issues and Reputation Management practice in New York, responsible for strategic crisis communications planning, reputation management and execution for consumer, healthcare and technology clients. Lead content and message development, media relations, executive positioning and thought leadership strategies.</p>
+          
+          <p class="res-hed">Vice President, June 2014 - June 2017<br />
+          Weber Shandwick | Birmingham, Mich. - New York, N.Y.</p>
+          <p class="res-sum">Provided strategic counsel, content development and media relations for corporate, corporate social responsibility, foundation and non-profit clients (W.K. Kellogg Foundation, Anheuser Busch InBev, U.N. Volunteers, SCA, Exxon, Nespresso) on messaging, engagement and advocacy strategies, from thought leadership, campaign planning and execution to content and brand strategy, issues management and marketing. Lead Weber Shandwick Detroit office’s Social Impact practice.</p>
           
           <p class="res-hed">Senior Director Public Relations, October 2012 - June 2014<br />
-          <em>Palace Sports & Entertainment</em> | Auburn Hills, Mich.</p>
+          Palace Sports & Entertainment | Auburn Hills, Mich.</p>
           <p class="res-sum">Managed strategic communications planning and execution of internal and external corporate communications and entertainment for PS&E properties: The Palace of Auburn Hills, DTE Energy Music Theatre, Meadow Brook Music Festival and the Detroit Pistons. Prepared and implemented fiscal year departmental budget. Coordinated media coverage and provided content and messaging for Marketing, Corporate Partnerships, Premium business and Community Relations platform initiatives.</p>
           
           <p class="res-hed">Press Secretary, January 2012 - September 2012<br />
-          <em>Mayor Dave Bing, City of Detroit</em> | Detroit, Mich.</p>
+          Mayor Dave Bing, City of Detroit | Detroit, Mich.</p>
           <p class="res-sum">Served as primary spokesperson for Mayor Bing and the administration. Developed and managed strategic policy messaging and crisis communications; crafting short- and long-term communication campaigns, highlighting the Mayor's policy agenda and achievements; speechwriting; and coordinated intergovernmental communications for more than two dozen City departments.</p>
           
           <p class="res-hed">Staff Writer, April 2003 - December 2011<br />
-          <em>Detroit Free Press</em> | Detroit, Mich.</p>
+          Detroit Free Press | Detroit, Mich.</p>
           <p class="res-sum">Provided general assignment, enterprise and City of Detroit coverage. Also covered Detroit Police and the Wayne County Sheriff's Office, and provided western Wayne County and southeast Michigan coverage; including local government, education, business and features.</p>
           
           <p class="res-hed">Editorial Assistant, August 2002 - March 2003<br />
-          <em>Wisconsin Historical Society Press</em> | Madison, Wis.</p>
+          Wisconsin Historical Society Press | Madison, Wis.</p>
           <p class="res-sum">Researched, copy edited, and proofread book projects and in-house newsletter.</p>
           
           <p class="res-hed">Staff Writer, December 1999 - March 2003<br />
-          <em>Wisconsin State Journal</em> | Madison, Wis.</p>
+          Wisconsin State Journal | Madison, Wis.</p>
           <p class="res-sum">Provided general assignment coverage; including police, city and county government in Madison and Dane County.</p>
           
           <p class="res-hed">Shelter advocate, September 1999-September 2000<br />
@@ -67,7 +75,7 @@
           <p class="res-sum">Facilitated resident intake and provide client services at a shelter for abused women and families serving Dane County, Wis. Answered 24-hour Crisis Line, provided non-emergency safety planning and protection/restraining orders instruction, and provided referrals to community resources and various DAIS programs.</p>
           
           <p class="res-hed">Editorial Assistant, January 1999 - January 2000<br />
-          <em>Journal of Human Resources</em> | Madison, Wis.</p>
+          Journal of Human Resources | Madison, Wis.</p>
           <p class="res-sum">Maintained peer-review of manuscripts for quarterly, academic economic journal.</p>
           
           <p class="res-hed">Communications Coordinator, August 1996 - January 1999<br />
@@ -79,15 +87,15 @@
           <p class="res-sum">Produced project presentations and budget reports for publications department, which published a dozen academic journals for the international professional association. Edited website content. Managed copyright requests and registered copyrights with the Library of Congress.</p>
           
           <p class="res-hed">Staff Writer, September 1993 - December 1993<br />
-          <em>The Onion</em> | Madison, Wis.</p>
+          The Onion | Madison, Wis.</p>
           <p class="res-sum">Reviewed films and music for satirical weekly.</p>
           
           <p class="res-hed">Staff Writer/Managing Editor, October 1992 - August 1993<br />
-          <em>Milwaukee Community Journal</em> | Milwaukee, Wis.</p>
+          Milwaukee Community Journal | Milwaukee, Wis.</p>
           <p class="res-sum">Provided city and state government, education and features coverage for African-American weekly newspaper.  Assigned stories, and managed production and editorial content for the WEEKEND edition.</p>
           
           <p class="res-hed">Staff Writer/Editor, November 1990 - May 1992<br />
-          <em>The Daily Cardinal</em> | Madison, Wis.</p>
+          The Daily Cardinal | Madison, Wis.</p>
           <p class="res-sum">Covered city, state, national and international news for student newspaper; including arts and sports. Edited "Page 2" essay/opinion column.</p>
           
           <p class="res-hed">Wrote liner notes for MTV's 1993 "Arrested Development Unplugged" CD.</p>

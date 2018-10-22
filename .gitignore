@@ -1,4 +1,7 @@
+.gitignore
 workshop
 favicon.ico
 favicon.gif
 *.swp
+fonts.txt
+mysql
