@@ -14,25 +14,10 @@
 
 <html>
   <head>
-    <title>Naomi R. Patton | Portfolio</title>
+    <title>Naomi R. Patton</title>
     <meta charset="utf-8">
     
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-    <script type="text/javascript" src="/js/main.js"></script>
-
-    <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
-    <script type="text/javascript">
-      try {
-        Typekit.load({
-          active: function() {
-            bW.go();
-          }
-        })
-      }
-      catch (e) {}
-    </script>
-
+    <?php include('typefaces.php'); ?>
     <link rel="stylesheet" href="/css/main.css" />
      
   </head>
@@ -40,11 +25,9 @@
     <div id="membrane">
     
       <div id="masthead">
-        <h1><em>Naomi</em> R. Patton</h1>
+        <h1><a href="index.php" title="Home page"><em>Naomi</em> R. Patton</a></h1>
         <ul id="nav">
-          <?php
-            require 'nav.php';
-          ?>
+          <?php include('nav.php'); ?>
         </ul>
       </div>
       
@@ -52,6 +35,9 @@
 
         <div id="portfolio-block">
           <h2 style="margin:50px 0px 10px 0px;">Portfolio</h2>
+
+          <p class="port-intro">Here's a sample of my work.</p>
+
           <p class="port-hed"><a href="/pdfs/redford_2011_0322.pdf">Turnaround in Redford Blueprint for Detroit Works</a></p>
           <p class="port-tag"><em>Detroit Free Press</em> | 1A | 3/22/11</p>
 
@@ -87,5 +73,7 @@
       
     </div>
   </body>
+
+  <script type="text/javascript" src="/js/main.js"></script> 
 
 </html>

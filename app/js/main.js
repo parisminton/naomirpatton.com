@@ -1,52 +1,46 @@
-var bW = window.bw || {};
-
-bW.getDOMReferences = function () {
-  this.nav = document.getElementById('nav');
-
-  this.nav_a_array = document.getElementById('nav')
-                   .getElementsByTagName('a');
-              
-  this.masthead_h1 = document.getElementById('masthead')
-                   .getElementsByTagName('h1')[0];
-};
-
-bW.listenFor = function (obj, evt, func, capt) {
+function listenFor (obj, event, func, capt) {
   if (obj.addEventListener) {
-    obj.addEventListener(evt, func, capt);
+    obj.addEventListener(event, func, capt);
   }
   else {
-    evt = "on" + evt;
+    event = "on" + event;
     if (obj.attachEvent) {
-      obj.attachEvent(evt, func);
+      obj.attachEvent(event, func);
     }
     else {
-      obj[evt] = func;
-    }
-  }
+      obj[event] = func;
+    };
+  };
 };
 
-bW.textHover = function (evt) {
-  var src;
-
+function nav_behavior (evt) {
   evt = evt || window.event;
-  src = evt.target || evt.srcElement;
-
-  if (evt.type == 'mouseover') {
-    src.style.color = '#c00';
-  }
-
-  if (evt.type == 'mouseout') {
-    src.style.color = '#999';
-  } 
+  var typ = evt.type;
+  var src = evt.target || evt.srcElement;
+  alert(typ + ", " + src.nodeName);
 };
 
-bW.buttonHover = function (evt) {
-  var on, off, src, button;
+function nav_highlight () {
+  this.style.color = '#c00';
+};
 
+function nav_dim () {
+  this.style.color = '#999';
+};
+
+/* ...get rid of this global... */
+var the_nav = document.getElementById('nav').getElementsByTagName('A');
+for (var i = 0; i < the_nav.length; i++) {
+  listenFor(the_nav[i], "mouseover", nav_highlight, false);
+  // listenFor(the_nav[i], "mouseover", nav_behavior, false);
+  listenFor(the_nav[i], "mouseout", nav_dim, false);
+};
+
+function buttonHover (evt) {
   evt = evt || window.event;
-  src = evt.target || evt.srcElement;
-  button = src.className.substring(7);
-
+  var on, off,
+      src = evt.target || evt.srcElement,
+      button = src.className.substring(7);
   switch (button) {
     case 'twitter':
       on = '-189px 0px';
@@ -61,62 +55,22 @@ bW.buttonHover = function (evt) {
       off = '-227px -24px';
       break;
   }
-
   if (evt.type == 'mouseover') {
     src.style.backgroundPosition = on;
   }
-
   if (evt.type == 'mouseout') {
     src.style.backgroundPosition = off;
   } 
 };
 
-bW.attachButtonListeners = function () {
-  var i, len;
-
-  for (i = 0, len = this.nav_a_array.length; i < len; i += 1) {
-    if (this.nav_a_array[i].className.indexOf('button') != -1) {
-      this.listenFor(this.nav_a_array[i], 'mouseover', this.buttonHover, true);
-      this.listenFor(this.nav_a_array[i], 'mouseout', this.buttonHover, true);
-    }
-    else {
-      this.listenFor(this.nav_a_array[i], 'mouseover', this.textHover, false);
-      this.listenFor(this.nav_a_array[i], 'mouseout', this.textHover, false);
+(function () {
+  var i, len,
+      the_nav2 = document.getElementById('nav'),
+      the_as = the_nav2.getElementsByTagName('a');
+  for (i = 0, len = the_as.length; i < len; i += 1) {
+    if (the_as[i].className.indexOf('button') != -1) {
+      listenFor(the_as[i], 'mouseover', buttonHover, true);
+      listenFor(the_as[i], 'mouseout', buttonHover, true);
     }
   }
-};
-
-
-// mobile stuff
-bW.makeMobileButton = function () {
-  var fragment = document.createDocumentFragment(),
-      button = document.createElement('div'),
-      p = document.createElement('p'),
-      show = document.createTextNode('Show menu');
-
-  p.appendChild(show);
-  button.id = 'mobilebutton';
-  button.appendChild(p);
-  fragment.appendChild(button);
-
-  this.nav.parentNode.insertBefore(fragment, this.nav);
-};
-
-bW.convertMobileNav = function () {
-  var comp_width = window.getComputedStyle(this.masthead_h1, null)
-                   .getPropertyValue('width');
-
-  this.nav.style.width = comp_width;
-  this.nav.className = 'mobilenav';
-};
-
-
-// set everything up
-bW.go = function () {
-  this.getDOMReferences();
-  this.attachButtonListeners();
-  if (window.innerWidth < 400) {
-    this.makeMobileButton();
-    this.convertMobileNav();
-  }
-};
+})();

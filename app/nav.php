@@ -1,7 +1,7 @@
 <li class="journ">Communicator</li>
 <?php
   
-  $nav_array = array('Home', 'About', 'Experience', 'Portfolio', 'Photos', 'Contact');
+  $nav_array = array('About', 'Experience', 'Portfolio', 'Contact');
   
   $page = $_SERVER['PHP_SELF'];
   
@@ -9,13 +9,10 @@
   
   foreach ($nav_array as $item) {
     if ($page == ('/' . strtolower($item) . '.php')) {
-      echo '<li class="currentpage">' . $item . '</li>';
-    }
-    elseif ($item == 'Home' && $page == '/index.php') {
-      echo '<li class="currentpage">Home</li>';
+      echo '<li>' . $item . '</li>';
     }
     elseif ($item == 'Portfolio' && $page == '/clips.php') {
-      echo '<li class="currentpage">Portfolio</li>';
+      echo '<li>Portfolio</li>';
     }
     else {
       if ($item == 'Portfolio') {

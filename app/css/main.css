@@ -1,115 +1,63 @@
-  * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
-  table {border-collapse:collapse; border-spacing:0;}
-  body {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; text-align:center;} 
-  h1 {display:inline-block; font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-size:40pt; margin:40px 0px 0px 20px;}
-  h1 em {font-style:normal; color:#c00;}
-  h2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
-  h3 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
-  .summary-head {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
-  .summary-head2 {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
-  .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-  .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
-  .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-  .summary {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px;}
-  a {color:#c00;}
-  
-  /*** ^macro ***/
-  #membrane {position:relative; width:800px; margin:0px auto; text-align:left;}
-  #main {position:relative; width:520px; margin:0px 140px;}
-  #home-block {margin-bottom:150px;}
-  #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
-  #contact-block {margin-bottom:300px;}
-  
-  /*** ^about ***/
-  .about {font-family:"proxima-nova-extra-condensed-1","proxima-nova-extra-condensed-2"; font-weight:400; font-style:normal; font-size:21px; margin: 20px 0;}
-  
-  /*** ^resume ***/
-  .res-hed {font-size:18px; font-weight:600; margin: 10px 0px 0px 0px;}
-  .res-sum {font-size:18px;}
-  .res-sum em {font-style:italic;}
-  .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
-  
-  /*** ^masthead ***/
-  #masthead {position:fixed; display:block; width:830px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
-  
-  /*** ^nav ***/
-  #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 20px; border:0px;}
-  #mobilebutton {
-    display: block;
-    position: absolute;
-    width: 70px;
-    height: 66px;
-    right: 0;
-    top: 38px;
-    border-left: 1px solid #ccc;
-    text-align: center;
-  }
-  #mobilebutton p {
-    display: block;
-    width: 28px;
-    height: 14px;
-    margin: 26px 24px 0 18px;
-    text-indent: -9999px;
-    background: transparent url(http://dev.naomirpatton.com/art/mobile_nav_button_sprites_28x30.png) left top no-repeat;
-    outline: none;
-  }
-  #nav li {float:left; font-size:24px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
-  #nav li a {text-decoration:none; color:#999; outline:none;}
-  #nav li.journ {color:#000;}
-  #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_251x48.png) top left no-repeat; outline:0px;}
-  #nav li a.twitter {background-position:-189px -24px;}
-  #nav li a.vimeo {background-position:-151px -24px;}
-  #nav li a.linkedin {background-position:-227px -24px;}
-  
-  #home-portrait {width:200px; height:220px; margin:0px 20px 0px 0px; float:left;}
-  
-  /*** ^portfolio ***/   
-  .port-hed {position:relative; font-size:22px; font-weight:400;}
-  .port-hed a {color:#000;}
-  .port-tag {position:relative; font-size:20px; margin-bottom:16px;}
-  
-  /*** ^photos ***/
-  #photo-block a {outline:none;}
-  .thumb {position:relative; margin:5px 10px; border:0px;}
-  
-  /*** ^contact ***/
-  #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}
-
-
-@media only screen and (max-width : 600px) {
-  body {
-    width: 100%;
-  }
-
-  #membrane {
-    width: 100%;
-  }
-
-  #masthead {
-    width: 100%;
-    height: 128px;
-  }
-
-  #masthead h1 {
-    margin: 26px 0px 0px 20px;
-  }
-  
-  #nav li {
-    display: none;
-  }
-
-  #nav li.journ,
-  #nav li.currentpage {
-    display: inline;
-  }
-
-  #nav li.currentpage {
-    margin: 0;
-    float: right;
-  }
-
-  #main {
-    width: 70%;
-    margin: 0 auto;
-  }
-}
+      * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
+      table {border-collapse:collapse; border-spacing:0;}
+      body {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; text-align:center;} 
+      h1 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-size:40pt; margin:40px 0px 0px 90px;}
+      h1 a {text-decoration:none; color:initial;}
+      h1 em {font-style:normal; color:#c00;}
+      h2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
+      h3 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
+      .summary-first {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 100px 0 20px 0;}
+      .summary-head {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+      .summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px;}
+      a {color:#c00;}
+      
+      /*** ^macro ***/
+      #membrane {position:relative; width:840px; margin:0px auto; text-align:left;}
+      #main {position:relative; width:520px; margin:0px 160px;}
+      #home-block {margin-bottom:150px;}
+      #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
+      #contact-block {margin-bottom:300px;}
+      
+      /*** ^home ***/
+      #home-block .summary {margin: 20px 0;}
+      
+      /*** ^about ***/
+      .about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 20px 0;}
+      
+      /*** ^resume ***/
+      .res-hed {font-size:17px; font-weight:600; margin: 10px 0px 0px 0px;}
+      .res-sum {font-size:17px;}
+      .res-sum em {font-style:italic;}
+      .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
+      
+      /*** ^masthead ***/
+      #masthead {position:fixed; display:block; width:840px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
+      
+      /*** ^nav ***/
+      #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 90px; border:0px;}
+      #nav li {float:left; font-size:21px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
+      #nav li a {text-decoration:none; color:#999; outline:none;}
+      #nav li.journ {color:#000;}
+      #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_251x48.png) top left no-repeat; outline:0px;}
+      #nav li a.twitter {background-position:-189px -24px;}
+      #nav li a.vimeo {background-position:-151px -24px;}
+      #nav li a.linkedin {background-position:-227px -24px;}
+      
+      #home-portrait {width:200px; height:220px; margin:0px 20px 0px 0px; float:left;}
+      
+      /*** ^portfolio ***/   
+      .port-hed {position:relative; font-size:17px; font-weight:400;}
+      .port-hed a {color:#000;}
+      .port-tag {position:relative; font-size:15px; margin-bottom:16px;}
+      .port-intro {margin:0 0 40px; font-size:28px;}
+      
+      /*** ^photos ***/
+      #photo-block a {outline:none;}
+      .thumb {position:relative; margin:5px 10px; border:0px;}
+      
+      /*** ^contact ***/
+      #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}

@@ -14,29 +14,14 @@
 
 <html>
   <head>
-    <title>Naomi R. Patton | Photos</title>
+    <title>Naomi R. Patton</title>
     <meta charset="utf-8">
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-
-    <script type="text/javascript" src="/js/main.js"></script>
-
-    <script type="text/javascript" src="http://use.typekit.com/czg3tgq.js"></script>
-    <script type="text/javascript">
-      try {
-        Typekit.load({
-          active: function() {
-            bW.go();
-          }
-        })
-      }
-      catch (e) {}
-    </script>
     
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
     <link rel="stylesheet" href="/css/jquery.lightbox-0.5.css" />
     
+    <?php include('typefaces.php'); ?>
     <link rel="stylesheet" href="/css/main.css" />
      
   </head>
@@ -44,11 +29,9 @@
     <div id="membrane">
     
       <div id="masthead">
-        <h1><em>Naomi</em> R. Patton</h1>
+        <h1><a href="index.php" title="Home page"><em>Naomi</em> R. Patton</a></h1>
         <ul id="nav">
-          <?php
-            require 'nav.php';
-          ?>
+          <?php include('nav.php'); ?>
         </ul>
       </div>
       
@@ -83,6 +66,7 @@
     </div>
   </body>
 
+  <script type="text/javascript" src="/js/main.js"></script>
   <script type="text/javascript">  
     
     $(function() {

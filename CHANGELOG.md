@@ -4,6 +4,11 @@ naomirpatton.com
 Changelog
 ---------
 
+**11/11/18**
+
+1. Update Experience, intro, nav.
+
+
 **10/27/13**
 
 1. On the phone, nav is hidden and resized. A button in the masthead will reveal the nav menu.
