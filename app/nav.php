@@ -1,4 +1,3 @@
-<li class="journ">Communicator</li>
 <?php
   
   $nav_array = array('About', 'Experience', 'Portfolio', 'Contact');

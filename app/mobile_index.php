@@ -29,7 +29,8 @@
     <div id="membrane">
     
       <div id="masthead">
-        <h1><a href="index.php" title="Home page"><em>Naomi</em> R. Patton</a></h1>
+        <h1><a href="index.php" title="Home page"><em>Naomi R. Patton</em></a></h1>
+        <button id="mobile-menu">Menu</button>
         <ul id="nav">
           <?php include('nav.php'); ?>
         </ul>
@@ -38,7 +39,7 @@
       <div id="main">
       
         <div id="home-block">
-          <p class="summary-first">I’m more than a writer, I’m a communicator. In digital and traditional forms, from corporate, public affairs and social sector communications to weekly newspapers and metropolitan dailies, I tell and elevate the story.</p>
+          <p class="summary summary-first">I’m more than a writer, I’m a communicator. In digital and traditional forms, from corporate, public affairs and social sector communications to weekly newspapers and metropolitan dailies, I tell and elevate the story.</p>
           
           <img src="/photos/naomi_home_portrait3.jpg" alt="Naomi R. Patton has worked in journalism and communications for nearly 20 years." id="home-portrait" />
           <p class="summary">I’ve developed messaging and communication campaigns, highlighting Detroit Mayor Dave Bing’s policy agenda and achievements. And I've managed integrated marketing campaigns as the strategic corporate and entertainment communications lead for the parent company of an NBA team.</p>

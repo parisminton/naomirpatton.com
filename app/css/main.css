@@ -1,63 +1,88 @@
-      * {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
-      table {border-collapse:collapse; border-spacing:0;}
-      body {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; text-align:center;} 
-      h1 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-size:40pt; margin:40px 0px 0px 90px;}
-      h1 a {text-decoration:none; color:initial;}
-      h1 em {font-style:normal; color:#c00;}
-      h2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
-      h3 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
-      .summary-first {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 100px 0 20px 0;}
-      .summary-head {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary-head2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
-      .summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px;}
-      a {color:#c00;}
-      
-      /*** ^macro ***/
-      #membrane {position:relative; width:840px; margin:0px auto; text-align:left;}
-      #main {position:relative; width:520px; margin:0px 160px;}
-      #home-block {margin-bottom:150px;}
-      #about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
-      #contact-block {margin-bottom:300px;}
-      
-      /*** ^home ***/
-      #home-block .summary {margin: 20px 0;}
-      
-      /*** ^about ***/
-      .about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 20px 0;}
-      
-      /*** ^resume ***/
-      .res-hed {font-size:17px; font-weight:600; margin: 10px 0px 0px 0px;}
-      .res-sum {font-size:17px;}
-      .res-sum em {font-style:italic;}
-      .res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
-      
-      /*** ^masthead ***/
-      #masthead {position:fixed; display:block; width:840px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
-      
-      /*** ^nav ***/
-      #nav {position:relative; display:block; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 90px; border:0px;}
-      #nav li {float:left; font-size:21px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
-      #nav li a {text-decoration:none; color:#999; outline:none;}
-      #nav li.journ {color:#000;}
-      #nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_251x48.png) top left no-repeat; outline:0px;}
-      #nav li a.twitter {background-position:-189px -24px;}
-      #nav li a.vimeo {background-position:-151px -24px;}
-      #nav li a.linkedin {background-position:-227px -24px;}
-      
-      #home-portrait {width:200px; height:220px; margin:0px 20px 0px 0px; float:left;}
-      
-      /*** ^portfolio ***/   
-      .port-hed {position:relative; font-size:17px; font-weight:400;}
-      .port-hed a {color:#000;}
-      .port-tag {position:relative; font-size:15px; margin-bottom:16px;}
-      .port-intro {margin:0 0 40px; font-size:28px;}
-      
-      /*** ^photos ***/
-      #photo-block a {outline:none;}
-      .thumb {position:relative; margin:5px 10px; border:0px;}
-      
-      /*** ^contact ***/
-      #contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}
+* {margin:0; padding:0; border:0; background:transparent; font-size:100%; vertical-align:baseline;}
+table {border-collapse:collapse; border-spacing:0;}
+body {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; text-align:center;} 
+h1 {font-family:"Yantramanav", "sans-serif"; font-weight:100; font-size:40pt; margin:40px 0px 0px 90px;}
+h1 a {text-decoration:none; color:initial;}
+h1 em {font-style:normal; color:#c00;}
+h2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#c00; margin:50px 0px 20px 0px;}
+h3 {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:34px; color:#000; margin:20px 0px 10px 0px;}
+.summary-first {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 100px 0 20px 0;}
+.summary-head {font-family:"Archivo Narrow", "sans-serif"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+.summary-head2 {font-family:"Archivo Narrow", "sans-serif"; font-weight:700; font-style:normal; font-size:24px; margin-bottom: 20px;}
+.summary-head3 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+.summary-head4 {font-family:"myriad-pro-condensed-1","myriad-pro-condensed-2"; font-weight:600; font-style:normal; font-size:24px; margin-bottom: 20px;}
+.summary-head5 {font-family:"ratio-display-1","ratio-display-2"; font-weight:400; font-style:normal; font-size:24px; margin-bottom: 20px;}
+.summary {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px;}
+a {color:#c00;}
+
+/*** ^macro ***/
+#membrane {position:relative; width:840px; margin:0px auto; text-align:left;}
+#main {position:relative; width:520px; margin:0px 160px;}
+#home-block {margin-bottom:150px;}
+#about-block, #resume-block, #portfolio-block, #photo-block {position:relative; margin-bottom:200px;}
+#contact-block {margin-bottom:300px;}
+
+/*** ^home ***/
+#home-block .summary {margin: 20px 0;}
+
+/*** ^about ***/
+.about {font-family:"Archivo Narrow", "sans-serif"; font-weight:400; font-style:normal; font-size:17px; margin: 20px 0;}
+
+/*** ^resume ***/
+.res-hed {font-size:17px; font-weight:600; margin: 10px 0px 0px 0px;}
+.res-sum {font-size:17px;}
+.res-sum em {font-style:italic;}
+.res-button {position:absolute; display:block; left:386px; top:14px; width:134px; height:24px; text-indent:30px; line-height:24px; background:url(/art/buttons_251x48.png) 0px -24px no-repeat;}
+
+/*** ^masthead ***/
+#masthead {position:fixed; display:block; width:840px; height:140px; background:transparent url('/art/bg_masthead_24bit.png') repeat-x left top; bottom:0px; z-index:5;}
+
+/*** ^nav ***/
+#nav {position:relative; display:none; top:-10px; list-style:none; padding:0px; margin:0px 0px 0px 90px; border:0px;}
+.standard #nav {display: block;}
+#nav li {float:left; font-size:21px; padding:0px; margin:0px 24px 0px 0px; border:0px; color:#999; font-weight:600; text-decoration:none;}
+#nav li a {text-decoration:none; color:#999; outline:none;}
+#nav li a:hover {color: #c00;}
+#nav li.journ {color:#000;}
+#nav li a.button {display:block; position:relative; text-indent:-9999px; width:24px; height:24px; top:2px; background:url(/art/buttons_251x48.png) top left no-repeat; outline:0px;}
+#nav li a.twitter {background-position:-189px -24px;}
+#nav li a.vimeo {background-position:-151px -24px;}
+#nav li a.linkedin {background-position:-227px -24px;}
+
+#home-portrait {width:200px; height:220px; margin:0px 20px 0px 0px; float:left;}
+
+/*** ^portfolio ***/   
+.port-hed {position:relative; font-size:17px; font-weight:400;}
+.port-hed a {color:#000;}
+.port-tag {position:relative; font-size:15px; margin-bottom:16px;}
+.port-intro {margin:0 0 40px; font-size:28px;}
+
+/*** ^photos ***/
+#photo-block a {outline:none;}
+.thumb {position:relative; margin:5px 10px; border:0px;}
+
+/*** ^contact ***/
+#contact-block .summary {position:relative; display:block; text-indent:-9999px; width:520px; height:68px; margin:0px; padding:0px; background:url(/art/contact_gmail_8bit.png) 0px 0px no-repeat;}
+
+
+
+/*** ^MOBILE ***/
+
+@media (max-width: 500px) {
+  #membrane {width: 100%;}
+  #masthead {position: relative; width: 90%; height: initial; margin: 0 auto 20px; padding: 20px 0 14px; border-bottom: 1px solid #ccc;}
+  #masthead h1 {display: inline-block; margin: initial; font-size: 30px;}
+  #nav {position: initial; margin: 14px 0 0 0;}
+  .mobile #nav { height: 0; overflow: hidden; -moz-transition: all .5s ease; -ms-transition: all .5s ease; -o-transition: all .5s ease; -webkit-transition: all .5s ease;}
+  .mobile #nav.closed {margin: 0; border-top: none;}
+  .mobile #nav.open {margin: 14px 0 0 0; border-top: 1px solid #eee;}
+  #nav li {float: initial; margin: auto; padding: 8px 10px; font-family:'Yantramanav', 'sans-serif'; font-size: 16px; font-weight: 300; border-top: 1px solid #ddd;}
+  #nav li a {color: rgb(102, 102, 102);}
+  #nav.closed li {border-top: 1px solid none;}
+  #mobile-menu {display: inline-block; width: 30px; position: absolute; top: 28px; right: 0; text-indent: -9999px; background: transparent url(/images/menu_button.svg) left top no-repeat; background-size: contain; cursor: pointer; outline: none;}
+  #main {width: 90%; margin: auto;}
+  .summary {line-height: 22px;}
+  .summary-first {margin: initial;}
+  #home-portrait {width: 45%; height: initial; margin: -2px 6px 0 -10px;}
+  #home-block {margin-bottom: 60px;}
+}

@@ -16,6 +16,7 @@
   <head>
     <title>Naomi R. Patton</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <?php include('typefaces.php'); ?>
     <link rel="stylesheet" href="/css/main.css" />

@@ -13,29 +13,6 @@ function listenFor (obj, event, func, capt) {
   };
 };
 
-function nav_behavior (evt) {
-  evt = evt || window.event;
-  var typ = evt.type;
-  var src = evt.target || evt.srcElement;
-  alert(typ + ", " + src.nodeName);
-};
-
-function nav_highlight () {
-  this.style.color = '#c00';
-};
-
-function nav_dim () {
-  this.style.color = '#999';
-};
-
-/* ...get rid of this global... */
-var the_nav = document.getElementById('nav').getElementsByTagName('A');
-for (var i = 0; i < the_nav.length; i++) {
-  listenFor(the_nav[i], "mouseover", nav_highlight, false);
-  // listenFor(the_nav[i], "mouseover", nav_behavior, false);
-  listenFor(the_nav[i], "mouseout", nav_dim, false);
-};
-
 function buttonHover (evt) {
   evt = evt || window.event;
   var on, off,
@@ -64,9 +41,52 @@ function buttonHover (evt) {
 };
 
 (function () {
-  var i, len,
-      the_nav2 = document.getElementById('nav'),
-      the_as = the_nav2.getElementsByTagName('a');
+  var i,
+      len,
+      body = document.getElementsByTagName('body')[0],
+      the_nav = document.getElementById('nav'),
+      the_as = the_nav.getElementsByTagName('a'),
+      mobile_nav_button = document.getElementById('mobile-menu');
+  
+  function checkWindowWidth () {
+    if (window.innerWidth < 420) {
+      body.classList.add('mobile');
+      body.classList.remove('standard');
+    }
+    else {
+      body.classList.add('standard');
+      body.classList.remove('mobile');
+    }
+  }
+
+  function toggleMobileMenu () {
+    if (/mobile/.test(body.className)) {
+      if (the_nav.classList.length === 0) {
+        the_nav.style.display = 'block';
+        the_nav.classList.add('closed');
+      }
+
+      if (/closed/.test(the_nav.className)) {
+        the_nav.classList.add('open');
+        the_nav.classList.remove('closed');
+        the_nav.style.height = the_nav.scrollHeight + 'px';
+      }
+      else {
+        the_nav.classList.add('closed');
+        the_nav.classList.remove('open');
+        the_nav.style.height = 0;
+      }
+    }
+  }
+
+  function loadStates () {
+    checkWindowWidth();
+  }
+
+  listenFor(window, 'load', loadStates, true);
+  listenFor(window, 'resize', checkWindowWidth, true);
+  listenFor(mobile_nav_button, 'click', toggleMobileMenu, true);
+
   for (i = 0, len = the_as.length; i < len; i += 1) {
     if (the_as[i].className.indexOf('button') != -1) {
       listenFor(the_as[i], 'mouseover', buttonHover, true);
